@@ -68,7 +68,7 @@ def main():
     n = p * q
     phin = (p - 1) * (q - 1)
     e, d = encontrar_claves(phin)
-    archivo_csv = r'C:\Users\ferna\Documents\letras.csv'
+    archivo_csv = r'https://raw.githubusercontent.com/BlackNoir01/pene/main/letras.csv'
     tabla = leer_tabla_csv(archivo_csv)
 
     opcion = st.radio("Seleccione una opción:", ['Encriptar', 'Desencriptar'])
